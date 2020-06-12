@@ -33,3 +33,5 @@ Route::group(['prefix' => 'v1'], function () {
     Route::post('create', 'UserController@create');
 
 });
+
+Route::get("/testing", "TestingController@index");
